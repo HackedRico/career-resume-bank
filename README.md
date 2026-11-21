@@ -54,8 +54,23 @@ The report for the nurse manager post is in [`job.md`](examples/nurse/jobs/2026-
 
 You need Python 3.10 or later, LaTeX, and poppler, on macOS or Linux. On Windows, use WSL.
 
-- macOS: `brew install --cask basictex && brew install poppler`, then in a new terminal `sudo tlmgr install enumitem`
-- Ubuntu: `sudo apt install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended poppler-utils wamerican`
+On macOS:
+
+```bash
+brew install --cask basictex && brew install poppler
+```
+
+Then open a new terminal and run:
+
+```bash
+sudo tlmgr install enumitem
+```
+
+On Ubuntu:
+
+```bash
+sudo apt install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended poppler-utils wamerican
+```
 
 If these commands are new to you, ask your agent to guide you through them. The script names any tool that is missing.
 
