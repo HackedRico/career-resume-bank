@@ -1,0 +1,75 @@
+\documentclass{resume}
+
+\begin{document}
+
+\resumeheader{Jordan Example}{%
+  Portland, OR \contactsep
+  (555) 010-0142 \contactsep
+  \href{mailto:jordan@example.com}{jordan@example.com} \contactsep
+  % These two addresses are made up, so they print with no link. A real resume wraps each in \href, as `template/blank.tex` shows.
+  linkedin.com/in/jordan-example \contactsep
+  github.com/jordan-example \contactsep
+  \href{https://jordan.example.com}{Portfolio}}
+
+\section{Education}
+\entry{Example State University, Salem, OR}{May 2022}
+  {Bachelor of Science in Computer Science}{GPA: 3.8}
+
+\section{Skills}
+\skillrow{Data Engineering}{ETL, data pipelines, data modeling, data quality, Airflow, dbt, Snowflake, Kafka, Spark, PostgreSQL, Looker}
+\skillrow{Cloud and Infrastructure}{AWS (S3, Lambda, ECS, SQS, CloudWatch), Terraform, Docker, GitHub Actions, CI/CD}
+\skillrow{Programming Languages}{Python, SQL, Go (Golang), TypeScript, Scala}
+\skillrow{Software Engineering}{REST APIs, FastAPI, SQLite, React, React Native, pytest, Jest, Kubernetes, code review}
+\skillrow{Certifications}{AWS Certified Data Engineer, Snowflake SnowPro Core}
+
+\section{Professional Experience}
+\job{Acme Freight}{Data Engineer}{Portland, OR}{Jun 2023 - Present}
+\begin{bullets}
+  \item Cut the nightly shipment ETL from 6 hours to 40 minutes by rebuilding it in Python and Airflow, loading 2.1 million shipment records a day into Snowflake for 60 warehouse users.
+  \item Saved about \$96K a year, 28\% of Snowflake spend, by clustering the 5 largest tables and suspending idle warehouses.
+  \item Raised on-time delivery from 91\% to 94\% with a Kafka consumer in Python that scores each scan event and alerts 45 dispatchers in Slack to reroute late shipments.
+  \item Migrated 64 finance tables from PostgreSQL to Snowflake with no reporting downtime, part of a 180-table, 3 TB warehouse move that finished in 10 weeks.
+  \item Reduced analyst-reported data incidents from 12 a quarter to 3 by writing 140 dbt models with tests.
+  \item Added GitHub Actions CI that runs 320 dbt and pytest tests on every pull request.
+  \item Moved 30 of the platform's 55 pipelines from cron to Airflow in 6 months, each with retries and a Slack alert on failure.
+  \item Caught schema changes in 4 carrier feeds before the nightly load with dbt source tests and Slack alerts.
+  \item Shipped the Looker carrier scorecard that 14 account managers use each week.
+  \item Wrote the on-call runbook for a rotation of 6 engineers.
+\end{bullets}
+
+\job{Example Parcel Service}{Software Engineer}{Remote}{Jul 2022 - May 2023}
+\begin{bullets}
+  \item Built the tracking REST API in Python, FastAPI and PostgreSQL that serves 3 partner retailers 400,000 requests a day at a p95 latency of 120 ms, deployed to AWS ECS with Terraform.
+  \item Dropped failed shipping labels from 2\% to 0.1\% by replacing a cron job with an SQS queue and worker.
+  \item Raised test coverage of the tracking service from 45\% to 82\% with pytest integration tests.
+  \item Shortened the Docker image build from 14 minutes to 4 with a multi-stage build and layer caching.
+  \item Trimmed the search for a failed delivery event from 50 minutes to 8 by adding structured logging and CloudWatch dashboards to all 6 tracking services running on AWS ECS.
+  \item Shortened a new retailer's integration from 2 weeks to 2 days with an onboarding guide and a sandbox API key flow.
+\end{bullets}
+
+\job{Example State University}{Teaching Assistant, Data Structures}{Salem, OR}{Sep 2021 - May 2022}
+\begin{bullets}
+  \item Returned feedback on 1,400 submissions a term in under 2 minutes, down from a week, with a Python autograder.
+  \item Taught 2 weekly lab sections for 60 students over two terms.
+\end{bullets}
+
+\job{Example Parcel Service}{Software Engineering Intern}{Salem, OR}{May 2021 - Aug 2021}
+\begin{bullets}
+  \item Flagged 38,000 bad addresses with a Python script that checked 1.2 million customer records against postal data.
+  \item Cut a package lookup from 3 minutes to 20 seconds for 20 support agents with an internal React and TypeScript page.
+  \item Wrote 40 Jest unit tests for the lookup page before its release to the support team.
+\end{bullets}
+
+\section{Projects}
+\project{\href{https://example.com/trailhead}{Trailhead Maps}}{Open-source offline trail planner}{Mar 2024 - Present}
+\begin{bullets}
+  \item Shrank a regional offline map from 900 MB to 110 MB with a tile packer for a React Native app with 9,000 installs.
+  \item Reviewed 85 pull requests from 12 outside contributors as maintainer of the TypeScript and SQLite code.
+\end{bullets}
+\project{\href{https://example.com/packmule}{Packmule}}{Grand Prize, HackExample 2024}{Oct 2024}
+\begin{bullets}
+  \item Built a Go CLI in 24 hours on a team of 3 that picks the cheapest carrier from 5 public rate tables.
+  \item Parsed 2,300 rate rows in under a second with the rate parser and comparison logic.
+\end{bullets}
+
+\end{document}

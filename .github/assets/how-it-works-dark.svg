@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" width="900" height="270" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="t">How career-resume-bank works</title>
+  <desc id="d">You bring your bank and a job post. The agent picks the experience the post asks for. A script rejects anything that is not in your bank. You get a one-page resume written for that job.</desc>
+  <defs><marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0l10 5-10 5z" fill="#7d8590"/></marker></defs>
+  <text x="102" y="18" text-anchor="middle" font-size="12" font-weight="600" letter-spacing="1" fill="#9198a1">YOU BRING</text>
+  <path d="M6 28h192" stroke="#3d444d" stroke-width="1"/>
+  <text x="334" y="18" text-anchor="middle" font-size="12" font-weight="600" letter-spacing="1" fill="#9198a1">THE AGENT</text>
+  <path d="M238 28h192" stroke="#3d444d" stroke-width="1"/>
+  <text x="566" y="18" text-anchor="middle" font-size="12" font-weight="600" letter-spacing="1" fill="#9198a1">A SCRIPT</text>
+  <path d="M470 28h192" stroke="#3d444d" stroke-width="1"/>
+  <text x="798" y="18" text-anchor="middle" font-size="12" font-weight="600" letter-spacing="1" fill="#9198a1">YOU GET</text>
+  <path d="M702 28h192" stroke="#3d444d" stroke-width="1"/>
+  <g fill="none" stroke="#7d8590" stroke-width="1.6" marker-end="url(#tip)">
+    <path d="M198 94C220 94 216 140 236 140"/>
+    <path d="M198 214C220 214 216 168 236 168"/>
+    <path d="M430 154H468"/>
+    <path d="M662 154H700"/>
+  </g>
+  <rect x="6" y="44" width="192" height="100" rx="10" fill="#161b22" stroke="#3d444d" stroke-width="1"/>
+  <g transform="translate(90 52)" fill="none" stroke="#9198a1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.66 3.58 3 8 3s8-1.34 8-3V6"/><path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></g>
+  <text x="102" y="98" text-anchor="middle" font-size="16" font-weight="600" fill="#f0f6fc">Your bank</text>
+  <text x="102" y="117" text-anchor="middle" font-size="13" fill="#9198a1">Everything you have done,</text>
+  <text x="102" y="133" text-anchor="middle" font-size="13" fill="#9198a1">saved once</text>
+  <rect x="6" y="164" width="192" height="100" rx="10" fill="#161b22" stroke="#3d444d" stroke-width="1"/>
+  <g transform="translate(90 172)" fill="none" stroke="#9198a1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2"/><path d="M3 13h18"/></g>
+  <text x="102" y="218" text-anchor="middle" font-size="16" font-weight="600" fill="#f0f6fc">A job post</text>
+  <text x="102" y="237" text-anchor="middle" font-size="13" fill="#9198a1">The job you want</text>
+  <text x="102" y="253" text-anchor="middle" font-size="13" fill="#9198a1">to apply for</text>
+  <rect x="238" y="99" width="192" height="110" rx="10" fill="#161b22" stroke="#3d444d" stroke-width="1"/>
+  <g transform="translate(322 112)" fill="none" stroke="#9198a1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16l-6 7v6l-4 2v-8z"/></g>
+  <text x="334" y="158" text-anchor="middle" font-size="16" font-weight="600" fill="#f0f6fc">Picks what fits</text>
+  <text x="334" y="177" text-anchor="middle" font-size="13" fill="#9198a1">Your experience that</text>
+  <text x="334" y="193" text-anchor="middle" font-size="13" fill="#9198a1">the post asks for</text>
+  <rect x="470" y="99" width="192" height="110" rx="10" fill="#161b22" stroke="#3d444d" stroke-width="1"/>
+  <g transform="translate(554 112)" fill="none" stroke="#9198a1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l3 3 5-6"/></g>
+  <text x="566" y="158" text-anchor="middle" font-size="16" font-weight="600" fill="#f0f6fc">Checks the facts</text>
+  <text x="566" y="177" text-anchor="middle" font-size="13" fill="#9198a1">Rejects anything that</text>
+  <text x="566" y="193" text-anchor="middle" font-size="13" fill="#9198a1">is not in your bank</text>
+  <rect x="702" y="99" width="192" height="110" rx="10" fill="#0c2d6b" stroke="#4493f8" stroke-width="1.5"/>
+  <g transform="translate(786 112)" fill="none" stroke="#79c0ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/><path d="M9 12h6"/><path d="M9 15h6"/><path d="M9 18h4"/></g>
+  <text x="798" y="158" text-anchor="middle" font-size="16" font-weight="600" fill="#cae8ff">Your resume</text>
+  <text x="798" y="177" text-anchor="middle" font-size="13" fill="#a5d6ff">One page, written</text>
+  <text x="798" y="193" text-anchor="middle" font-size="13" fill="#a5d6ff">for that job</text>
+</svg>

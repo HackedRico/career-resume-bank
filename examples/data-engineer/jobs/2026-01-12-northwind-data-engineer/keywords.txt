@@ -1,0 +1,17 @@
+title: Data Engineer
+# Core terms: the required ones first, then what the post repeats.
+!Python
+!SQL
+!data pipelines
+!Airflow
+!Snowflake
+!dbt
+!Bachelor
+!Computer Science
+# Responsibilities and preferred terms the bank backs, in the post's spelling.
+ETL
+data quality
+Kafka
+Terraform
+on-call
+cost optimization

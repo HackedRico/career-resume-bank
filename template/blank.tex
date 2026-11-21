@@ -1,0 +1,51 @@
+% The shape of every resume. Copy this file to `base/resume.tex` and replace each
+% <placeholder> with a fact from `bank/`. Delete any line or section the bank has
+% nothing for. Nothing in this file is a fact.
+% Options: `a4paper` for A4 in place of US Letter, and `inlinedates` to print each date
+% after a bar, as \documentclass[a4paper,inlinedates]{resume}.
+\documentclass{resume}
+
+\begin{document}
+
+% The name, then the contact details on one line: location, phone, email and each
+% profile address the bank lists. Only a portfolio link prints a label. Write the
+% location and the phone number the way the user's country does.
+\resumeheader{<Name>}{%
+  <City, ST or Country> \contactsep
+  <phone> \contactsep
+  \href{mailto:<email>}{<email>} \contactsep
+  \href{https://www.linkedin.com/in/<handle>/}{linkedin.com/in/<handle>} \contactsep
+  \href{https://github.com/<handle>}{github.com/<handle>} \contactsep
+  \href{<portfolio url>}{Portfolio}}
+
+% A heading may say what fits the user: a section of \job lines is read as work
+% history and a section of \project lines as projects, whatever it is called.
+% Sections print in the order written. Education comes first for a student or a
+% recent graduate, and after Professional Experience for everyone else.
+\section{Education}
+% The last braces hold the grade as the school states it, such as GPA: 3.8 or
+% First Class Honours. Leave them empty to print none.
+\entry{<School, City, ST or Country>}{<Mon YYYY, or Expected Mon YYYY>}
+  {<Degree in Subject, the level in words>}{<grade>}
+
+\section{Skills}
+\skillrow{<Label>}{<skill, skill, skill>}
+\skillrow{Licenses}{<license, issuer, status>}
+\skillrow{Certifications}{<certification, certification>}
+\skillrow{Languages}{<language (level), language (level)>}
+
+\section{Professional Experience}
+% One \job per role, newest first, each naming its own employer. Leave the
+% location braces empty for work with no one place.
+\job{<Employer>}{<Title>}{<City, ST or Country>}{<Mon YYYY> - <Mon YYYY or Present>}
+\begin{bullets}
+  \item <One claim that leads with what changed and how much.>
+\end{bullets}
+
+\section{Projects}
+\project{<Name>}{<award or context>}{<Mon YYYY>}
+\begin{bullets}
+  \item <One claim.>
+\end{bullets}
+
+\end{document}

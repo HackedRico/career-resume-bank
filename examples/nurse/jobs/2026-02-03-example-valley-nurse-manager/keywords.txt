@@ -1,0 +1,15 @@
+title: Clinical Nurse Manager
+# Core terms: the minimum qualifications first, then the quality measures the post names.
+!Bachelor
+!Nursing
+!RN
+!charge nurse
+!BLS
+!ACLS
+patient falls
+pressure injuries
+medication events
+patient experience
+# Preferred terms the bank backs, in the post's spelling.
+PCCN
+Epic
